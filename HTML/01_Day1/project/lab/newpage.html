@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   
+</head>
+<body>
+    <h1>Registertion Form</h1>
+    <form action="thanks.html" method="post">
+        <!-- form elements -->
+         <label for="user" >USer Name :</label>
+         <input type="text" id="user" name="username"/>
+         <br />
+         <label for="pass">Password :</label>
+         <input type="password" id="pass" name="pwd" />
+         <br />
+         <label for="userage">Age :</label>
+         <input id="userage" type="number" min="16" max="60" name="age" />
+        <br />
+         <label>Email :</label>
+        <input type="email" />
+        <br />
+        <label>Gender :</label>
+        <input type="radio" name="gender" value="female" /><span>Female</span>
+        <input type="radio" name="gender" value="male" /><span>Male</span>
+        <br />
+        <!-- key=value
+                name=value(user entering ) -->
+        <label>Subjects :</label>
+        <input type="checkbox" name="opt1" value="css" /><span>CSS</span>
+        <input type="checkbox" name="opt2" value="html" /><span>HTML</span>
+        <input type="checkbox" name="opt3"/><span>JS</span>
+        <input type="checkbox" name="opt4"/><span>Python</span>
+        <br />
+        <label>Country :</label>
+        <select>
+            <option>EGY</option>
+            <option>USA</option>
+            <option>KSA</option>
+        </select>
+        <br />
+        <label>Address :</label>
+        <textarea></textarea>
+        <br />
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+    </form>
+</body>
+</html>

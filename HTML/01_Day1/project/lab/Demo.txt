@@ -1,0 +1,9 @@
+html == > Hyper Text Markup  Lang
+<> ==> tags
+<html> ==>tagname open tag
+    </html> >> closing tag
+<p>content</p>
+<div>Content</div>
+self closing tags
+<img />
+<br />

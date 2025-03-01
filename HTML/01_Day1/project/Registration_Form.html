@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" /> <!-- to be responsive -->
+        <meta name="description" content="This website is talking about Mohamed Samir Silaya" /> <!--SEO Wise-->
+        <meta name="keywords" content="Hire,rate,Hour,Avilable" /> <!-- SEO Wise -->
+    </head>
+    <body>
+        <table border="1">
+
+        <form action="My_info.html" method="POST">
+        <th colspan="2"><h1>Registration Form</h1> </th>
+        <tr>
+            <td><label for="fname">first name:</label></td>
+            <td><input type="text" id="fname" name="fname" ></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last name:</label></td>
+            <td><input type="text" id="lname" ></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password:</label></td>
+            <td><input type="password" id="password" name="password" ></td>
+        </tr>
+        <tr>
+            <td><label for="Track">Track:</label></td>
+            <td>
+                <select name="Track" id="Track">
+                    <option value="BI">BI</option>
+                    <option value="Python">Python</option>
+                    <option value=".Net">.Net</option>
+                    <option value="Embedded">Embedded</option>
+                  </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Gender">Gender:</label></td>
+            <td>
+                <input type="radio" id="Male" name="Gender" value="male">
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="Fav">Favorites:</label></td>
+            <td>
+                <input type="checkbox" id="football" name="Fav">
+                <label for="football">football</label>
+                <input type="checkbox" id="Games" name="Fav" >
+                <label for="Games">Games</label>
+                <input type="checkbox" id="Reading" name="Fav" >
+                <label for="Reading">Reading</label>
+                <input type="checkbox" id="Travel" name="Fav" >
+                <label for="Trave">Trave</label>
+                <input type="checkbox" id="Basketball" name="Fav" >
+                <label for="Basketball">Basketball</label>
+                <input type="checkbox" id="swimming" name="Fav" >
+                <label for="Basketball">swimming</label>
+                
+            </td>
+        </tr>
+        <tr>
+            <td> <label for="description"> description: </label></td>
+            <td>
+                 <textarea id="description" name="description" rows="4" cols="40"> </textarea>
+                </td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="Register">
+           <input type="reset" value="reset">
+            </td>
+        </tr>
+        <tr>
+        <td colspan="2">
+            <input type="file" value="Choose File">
+        </td
+        </tr>
+
+        
+        
+        </form>
+    </table>
+    </body>
+</html>
