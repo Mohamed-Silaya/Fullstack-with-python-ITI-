@@ -36,13 +36,15 @@ The `<head>` section contains metadata and resources that define the behavior an
   - `<b>` (bold text)
   - `<i>` (italic text)
   - `<a href="https://example.com">` (hyperlinks)
-  - `<img src="image.jpg" alt="Image description" />` (images)
+  - `<img src="image.jpg" alt="Image description" />` (images) 
 - **Block Elements**: Occupy the full width of their parent container, such as:
   - `<p>` (paragraphs)
   - `<div>` (sections or layout blocks)
   - `<h1>` to `<h6>` (headings)
   - `<ul>` and `<ol>` (lists)
   - `<table>` (tables)
+  <br> **Example:   [EX1](/01_Day1/project/My_info.html)**
+  <br> **Example:   [EX2](/01_Day1/project/list.html)**
 
 ### **Tables in HTML**
 Tables are used for organizing data into rows and columns. Key elements include:
@@ -68,7 +70,7 @@ Tables are used for organizing data into rows and columns. Key elements include:
   </tr>
 </table>
 ```
-
+ <br> **Exercise:   [EX](/01_Day1/project/all_data.html)**
 ### **Forms in HTML**
 Forms allow users to input data via interactive fields. Common elements include:
 - `<input>`: Text fields, checkboxes, radio buttons, etc.
@@ -88,6 +90,7 @@ Forms allow users to input data via interactive fields. Common elements include:
   <button type="submit">Submit</button>
 </form>
 ```
+ <br> **Example:   [EX](/01_Day1/project/Registration_Form.html)**
 
 ### **Media Elements in HTML**
 HTML5 supports embedded media elements, such as:
