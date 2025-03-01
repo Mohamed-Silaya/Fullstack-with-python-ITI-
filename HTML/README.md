@@ -116,6 +116,6 @@ HTML5 supports embedded media elements, such as:
 - **Responsive Design**: Using `<meta viewport>` and CSS media queries, HTML pages adapt to different screen sizes.
 
 ---
-This guide provides a foundational overview of essential HTML concepts. For a complete web development experience, consider learning CSS and JavaScript!
+
 
 
